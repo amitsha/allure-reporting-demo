@@ -1,4 +1,4 @@
-lTo use Allure, you only need to complete two steps:
+To use Allure, you only need to complete two steps:
 
 1. Gather information about tests
     1. For this, there are adapters for different test frameworks like JUnit, Cucumber-JVM etc.
@@ -127,10 +127,6 @@ Also, add these dependencies:
 ```
 Obviously, you’ll need to add the other dependencies like cucumber-java etc.
 <br>
-With this set up, when you execute mvn test, unit tests will be executed and the xml report will get generated.
-When you execute mvn verify, unit tests and cucumber tests will be executed and the xml reports will get generated for unit test and the cucumber scenarios.
-It’s generated in target/allure-results.
+With this set up, when you execute **mvn test**, unit tests will be executed and the xml report will get generated. When you execute **mvn verify**, unit tests and cucumber tests will be executed and the xml reports will get generated for unit test and the cucumber scenarios. It’s generated in **target/allure-results**.
 <br>
-For generating reports, **cd into the project dir**, and execute this command: **allure generate target/allure-results**
-A folder **allure-report** will be generated in the project dir.
-Then execute **allure report open** to start the web server and launch the html report.
+For generating reports, **cd into the project dir**, and execute this command: **allure generate target/allure-results**. A folder **allure-report** will be generated in the project dir. Then execute **allure report open** to start the web server and launch the html report.
