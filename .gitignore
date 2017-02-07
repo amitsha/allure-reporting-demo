@@ -1,8 +1,8 @@
-# IDE working files
+# IDE working files/directories
 *.iws
 *.ipr
 *.iml
-.idea/
+.idea
 .settings
 .project
 .classpath
