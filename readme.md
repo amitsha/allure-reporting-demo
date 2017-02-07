@@ -12,6 +12,7 @@ This is the easiest set up:
 To generate the Allure compatible XML (Which is generated per test class):
 
 Add the following plugins in your POM xml:
+```xml
 <plugin>
     <groupId>com.github.temyers</groupId>
     <artifactId>cucumber-jvm-parallel-plugin</artifactId>
@@ -100,7 +101,10 @@ Add the following plugins in your POM xml:
         </dependency>
     </dependencies>
 </plugin>
+```
+
 Also, add these dependencies:
+```xml
 <!--Cucumber parallel plugin-->
 <dependency>
     <groupId>com.github.temyers</groupId>
@@ -120,6 +124,7 @@ Also, add these dependencies:
     <artifactId>allure-junit-adaptor</artifactId>
     <version>1.5.0</version>
 </dependency>
+```
 Obviously, you’ll need to add the other dependencies like cucumber-java etc.
 With this set up, when you execute mvn test, unit tests will be executed and the xml report will get generated.
 When you execute mvn verify, unit tests and cucumber tests will be executed and the xml reports will get generated for unit test and the cucumber scenarios.
