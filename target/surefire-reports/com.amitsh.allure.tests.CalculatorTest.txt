@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.amitsh.allure.tests.CalculatorTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec - in com.amitsh.allure.tests.CalculatorTest
